@@ -2,9 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 
-import Navbar from './components/Navbar';
-
-// import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
+import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
 
 const App = () => (
@@ -16,18 +14,18 @@ const App = () => (
       <Layout>
         <div className="routes">
           <Routes>
-            {/* <Route path="/" element={<Homepage />} />
+            <Route path="/" element={<Homepage />} />
             <Route path="/exchanges" element={<Exchanges />} />
             <Route path="/cryptocurrencies" element={<Cryptocurrencies />} />
             <Route path="/crypto/:coinId" element={<CryptoDetails />} />
-            <Route path="/news" element={<News />} /> */}
+            <Route path="/news" element={<News />} />
           </Routes>
         </div>
       </Layout>
       <div className="footer">
         <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-          Copyright © 2021
-          <NavLink to="/">Cryptoverse Inc.</NavLink>
+          Copyright © 2023
+          <NavLink to="/">CryptoWatch Inc.</NavLink>
           <br />
           All Rights Reserved.
         </Typography.Title>
