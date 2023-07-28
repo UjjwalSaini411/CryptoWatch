@@ -22,7 +22,7 @@ Clone this repository to your local machine using the following command:
 
 bash
 Copy code
-git clone https://github.com/your-username/crypto-watch-react.git
+git clone https://github.com/UjjwalSaini411/CryptoWatch
 Navigate to the project directory:
 
 bash
