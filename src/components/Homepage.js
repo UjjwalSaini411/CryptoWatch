@@ -4,7 +4,9 @@ import { Typography, Row, Col, Statistic } from 'antd'
 import { NavLink } from 'react-router-dom';
 import { cryptoApi } from '../services/cryptoApi';
 import { Cryptocurrencies, News } from '../components'
+import Loader from './Loader';
 const { Title } = Typography
+
 
 
 const Homepage = () => {
@@ -12,7 +14,7 @@ const Homepage = () => {
   const globalstats = data?.data?.stats;
   console.log(data);
   if (isFetching) {
-    return 'Loading....'
+    return <Loader/>
   }
   return (
     <>
