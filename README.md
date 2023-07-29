@@ -57,6 +57,6 @@ We welcome contributions to enhance the application and make it even more robust
 
 Let's keep track of the ever-changing world of cryptocurrencies together with the Crypto Watch React Application! Happy crypto watching! 🚀
 
-
+ 
 
 
